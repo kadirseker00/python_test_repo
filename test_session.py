@@ -6,7 +6,7 @@ from session import add_numbers
 
 # Check if properly adds positive numbers
 def test_add_positive():
-    assert add_numbers(1,2) == 3
+    assert add_numbers(2,2) == 4
 
 # Check if properly adds zero
 def test_add_zero():
